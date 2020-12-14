@@ -1,0 +1,9 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+    color: #3d3838;
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 222, 222);
+}

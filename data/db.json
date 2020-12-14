@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to my demo website",
+      "likes": 12,
+      "body": "In this website , I used a json-server package and test it , how can handle the data from json file. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur quibusdam exercitationem vero blanditiis aspernatur dignissimos earum, non a officiis architecto mollitia cum dolor omnis adipisci! Eius recusandae perspiciatis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur quibusdam exercitationem vero blanditiis aspernatur dignissimos earum, non a officiis architecto mollitia cum dolor omnis adipisci! Eius recusandae perspiciatis est!Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur quibusdam exercitationem vero blanditiis aspernatur dignissimos earum, non a officiis architecto mollitia cum dolor omnis adipisci! Eius recusandae perspiciatis est!"
+    },
+    {
+      "id": 2,
+      "title": "How to use json server package ?",
+      "likes": 20,
+      "body": "Install JSON Server: npm install -g json-server , 2- Create a db.json file with some data, 3- Start JSON Server : json-server --watch db.json Now if you go to http://localhost:3000/posts/1, you'll get data Also when doing requests, it's good to know that: If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to db.json using lowdb.Your request body JSON should be object enclosed, just like the GET output.Id values are not mutable. Any id value in the body of your PUT or PATCH request will be ignored. Only a value set in a POST request will be respected, but only if not already taken.POST, PUT or PATCH request should include a Content-Type: application/json header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur quibusdam exercitationem vero blanditiis aspernatur dignissimos earum, non a officiis architecto mollitia cum dolor omnis adipisci! Eius recusandae perspiciatis est!"
+    },
+    {
+      "id": 3,
+      "title": "steps to be a pro software developer",
+      "likes": 16,
+      "body": [
+        "Master the fundamentals. ...",
+        "Be comfortable with problem-solving. ...",
+        "Build real-world projects for your portfolio. ...",
+        "Do open source and learn GIT and the Terminal like your life depends on it. ...",
+        "Learn to read code. ...",
+        "Study the Masters. ...",
+        "Learn how to READ and WRITE documentation. ...",
+        "Apply to lots of places.",
+        "Get an Education. Completing a formal education is the first step toward becoming a software engineer..",
+        "Do an Internship. ...",
+        "Pursue a Specialization. ...",
+        "Pursue Entry-Level Career Opportunities. ...",
+        "Get Certified. ...",
+        "Attend Conferences. ...",
+        "Earn a Graduate Degree."
+      ]
+    },
+    {
+      "title": "Ashar oran life",
+      "body": "hi , this is my life , i learn alt of things one time , but i trie make fun of it ;)",
+      "likes": 0,
+      "id": 4
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "Angular.js Vs React.js?",
+      "answerA": "Angular",
+      "answerB": "React"
+    }
+  ]
+}

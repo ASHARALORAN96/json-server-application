@@ -1,0 +1,39 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+    color: #3d3838;
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 222, 222);
+}
+
+.delete , .back {
+    margin: 1vw auto;
+    border: none;
+    /* display: block; */
+    text-align: center;
+    text-decoration: none;
+    padding: 1%;
+    background-color: goldenrod;
+    border-radius: 5%;
+    color: white;
+    box-shadow: 0px 4px 13px 0px rgba(134, 133, 133, 0.651);
+}
+.delete:hover , .back:hover{
+    cursor: pointer;
+    background-color: rgb(226, 179, 59);
+    box-shadow: 0px 4px 9px 0px rgba(134, 133, 133, 0.651);
+    transition: 500ms;
+}
+.container{
+    width: 80%;
+    width: 72%;
+    padding: 2%;
+    letter-spacing: .7px;
+    line-height: 20px;
+    font-size: .8em;
+    box-shadow: 0px 5px 14px 0px rgba(134, 133, 133, 0.651);
+    margin: 5vw auto;
+    background: rgba(255, 255, 255, 0.89);
+}
